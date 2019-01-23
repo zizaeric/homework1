@@ -1,1 +1,86 @@
-CSS-tutorial
+<!DOCTYPE html>
+<html>
+    <!--continue practice with Backgrounds-->
+<head>
+        <link rel="stylesheet" type="text/css" href="mystyle.css">
+<!--
+<style>
+   
+    /*this is internal css*/
+    /* Continue tutorial from end of "How to", tue, Jan 22*/
+
+body {
+    background-color: lightblue;
+}
+h1 {
+    color: white;
+    text-align: center;
+}
+p {
+    font-family: verdana;
+    font-size: 20px;
+    color: yellow;
+    text-align: center;
+    }
+
+/* a # is used to select an id */
+#para1 {
+    color: pink;
+}
+#header2 {
+    background: lightpink;
+}
+
+/*a . is used to select a class */
+.center {
+    background: lightgrey;
+}
+
+/* only h1 elements with a class "center" will be selected */
+h1.center {
+    border: 20px;
+    border-color: red;
+    padding: 20px;
+}
+.para {
+    margin: 30px;
+}
+
+/*you can group multiple selectors to reduce code size*/
+h2, h3, .aboutme {
+    text-align: left;
+    padding: 20px;
+    margin: 20px;
+
+}
+</style>
+-->
+
+</head>
+<body>
+    <!-- This is body HTML-->
+    <h1 class="center">My First W3School CSS</h1>
+       
+        <p id="para1">This is a paragraph.</p>
+        <p class="center para">And this.</p>
+        <p class="center para">And this one as well.</p>
+    
+    <h2 id="header2">A little bit about me!</h2>
+
+        <h3>Childhood.</h3>
+        <p class="aboutme">This is a paragraph about my childhood.</p>
+        <h3>Education.</h3>
+        <p class="aboutme">This is a paragraph about my education</p>
+
+
+        <h1 id="helloworld">Hello World</h1>
+
+        <!-- This paragraph contains inline css-->
+        <p style="background-color:Tomato; color: white; margin:20px; padding: 20px; border: 2px dashed DodgerBlue;">
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+        Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+        </p>
+
+
+</body>
+</html>
